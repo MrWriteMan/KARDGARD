@@ -521,9 +521,11 @@ footer > article {
 }
 .button_submit_a_application:hover{
     background-color: rgb(112, 0, 0);
+    transition:1s;
 }
 .button_submit_a_application:active{
     background-color: rgb(134, 0, 0);
+    transition:1s;
 }
 .submit_a_application {
     text-decoration: none;
