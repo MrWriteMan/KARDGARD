@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Oswald:wght@200..700&family=Ponomar&display=swap');
+* {
+    font-family: Oswald, sans-serif;
+    color: white;
+}
+body {
+    background-color: black;
+
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 20%;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    z-index: 1;
+    margin-top: 70px;
+}
+header{
+    font-size: 40px;
+    left: 180px;
+    position: relative;
+}
+section:hover {
+    transform: translate(340px, 0px);
+    transition: 1s;
+}
+section{
+    border-radius: 360px;
+    background-color: rgb(122, 0, 0);
+    height: 360px;
+    width: 360px;
+    position: relative;
+    top: 70px;
+    right: 186px;
+}
+section > article > p {
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 28px;
+}
+a{
+    cursor: pointer;
+}
